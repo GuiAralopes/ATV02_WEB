@@ -1,18 +1,19 @@
 let nome = document.getElementById("nome");
 let email = document.getElementById("email");
-let senha = document.getElementById("senha");
+let textForm = document.getElementById("textForm");
+let textEmail = document.getElementById("textEmail");
 
 form.addEventListener("submit", (e) => {
   if (nome.value == "" || email.value == "" || senha.value == "") {
     textForm.textContent = "Preencha todos os Campos!";
   } else {
-    textForm.textContent = "Mensagem enviada com êxito!";
+    textForm.textContent = "Mensagem enviada com Sucesso!";
     console.log(nome.value);
     console.log(email.value);
     console.log(msg.value);
     nome.value = "";
     email.value = "";
-    msg.value = "";
+    senha.value = "";
   }
   e.preventDefault();
 });
