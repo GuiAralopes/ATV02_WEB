@@ -11,7 +11,7 @@ form.addEventListener("submit", (e) => {
     textForm.textContent = "Mensagem enviada com Sucesso!";
     console.log(nome.value);
     console.log(email.value);
-    console.log(msg.value);
+    console.log(senha.value);
     nome.value = "";
     email.value = "";
     senha.value = "";
