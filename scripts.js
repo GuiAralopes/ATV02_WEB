@@ -1,5 +1,6 @@
 let nome = document.getElementById("nome");
 let email = document.getElementById("email");
+let form = document.querySelector("form");
 let textForm = document.getElementById("textForm");
 let textEmail = document.getElementById("textEmail");
 
